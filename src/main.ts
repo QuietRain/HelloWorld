@@ -13,12 +13,11 @@ function pyramid(totalLine: number): void {
 }
 
 var num = process.argv[2];
-if (!num){
-
+if (!num) {
+    console.log("errpr");
 }
 else {
     pyramid(parseInt(num));
 }
-
 
 
